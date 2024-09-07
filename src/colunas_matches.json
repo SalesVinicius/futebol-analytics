@@ -1,0 +1,40 @@
+{
+    "colunas_matches_rename" :{
+        "id" : "id",
+        "tournament.name" : "nomeTorneio",
+        "tournament.category.name" : "nomePaisTorneio",
+        "season.year" : "anoTemporada",
+        "roundInfo.round" : "rodada",
+        "status.description": "statusPartida",
+        "homeTeam.name" : "nomeTimeCasa",
+        "homeTeam.nameCode" : "codigoTimeCasa",
+        "awayTeam.name" : "nomeTimeVisitante",
+        "awayTeam.nameCode" : "codigoTimeVisitante",
+        "homeScore.period1" : "pontosCasaTempo1",
+        "homeScore.period2" : "pontosCasaTempo2",
+        "homeScore.normaltime" : "pontosCasaFinal",
+        "awayScore.period1" : "pontosVisitanteTempo1",
+        "awayScore.period2" : "pontosVisitanteTempo2",
+        "awayScore.normaltime" : "pontosVisitanteFinal"
+    },
+
+    "colunas_matches_keep":[
+        "id",
+        "nomeTorneio",
+        "nomePaisTorneio",
+        "anoTemporada",
+        "rodada",
+        "statusPartida",
+        "nomeTimeCasa",
+        "codigoTimeCasa",
+        "nomeTimeVisitante",
+        "codigoTimeVisitante",
+        "pontosCasaTempo1",
+        "pontosCasaTempo2",
+        "pontosCasaFinal",
+        "pontosVisitanteTempo1",
+        "pontosVisitanteTempo2",
+        "pontosVisitanteFinal"
+    ]
+
+}
