@@ -1,6 +1,6 @@
 {
     "colunas_matches_rename" :{
-        "id" : "id",
+        "id" : "idPartida",
         "tournament.name" : "nomeTorneio",
         "tournament.category.name" : "nomePaisTorneio",
         "season.year" : "anoTemporada",
@@ -19,7 +19,7 @@
     },
 
     "colunas_matches_keep":[
-        "id",
+        "idPartida",
         "nomeTorneio",
         "nomePaisTorneio",
         "anoTemporada",

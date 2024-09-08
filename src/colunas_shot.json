@@ -1,0 +1,32 @@
+{
+    "colunas_shot_rename" :{
+        "isHome" : "isHome",
+        "id":"idChute",
+        "player.id" : "jogadorId",
+        "player.name" : "jogadorNome",
+        "player.position" : "jogadorPosição",
+        "shotType": "resultadoChute",
+        "situation" : "situacao",
+        "bodyPart" : "tipoChute",
+        "xg" : "xG",
+        "time" : "tempo",
+        "playerCoordinates.x": "coordenadaX",
+        "playerCoordinates.y": "coordenadaY"
+    },
+
+    "colunas_shot_keep":[
+        "idPartida",
+        "jogadorId",
+        "jogadorNome",
+        "jogadorPosição",
+        "resultadoChute",
+        "situacao",
+        "tipoChute",
+        "xG",
+        "tempo",
+        "coordenadaX",
+        "coordenadaY",
+        "isHome"
+    ]
+
+}
