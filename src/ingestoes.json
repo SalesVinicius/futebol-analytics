@@ -1,0 +1,10 @@
+[
+    {
+        "table" : "tb_match",
+        "path" : "../data/matches.csv"
+    },
+    {
+        "table" : "tb_shot",
+        "path" : "../data/shot.csv"
+    }
+]
