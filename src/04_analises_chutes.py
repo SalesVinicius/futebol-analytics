@@ -25,7 +25,7 @@ nome_jogador_max = idx_max[1]
 nome_jogador_max
 
 
-df_shotmap = df[df['jogadorNome']==nome_jogador_max]
+df_shotmap = df[df['jogadorNome']==nome_jogador_max] #Filtrando pelo jogador q mais finaliza. Aqui poderia ser qualquer jogador.
 
 # Estatísitcas
 total_chutes = df_shotmap.shape[0] #número de linhas
@@ -129,15 +129,6 @@ pitch = VerticalPitch(
     
 )
 
-# pitch = Pitch(pitch_type='opta',
-
-#               axis=True,
-#               label=True,
-#               pitch_color= background_color,
-#               pad_right=-75
-
-#             )
-
 pitch.draw(ax=ax2)
 
 for index, row in df_shotmap.iterrows():
@@ -152,7 +143,5 @@ for index, row in df_shotmap.iterrows():
     )
 
 ax2.set_axis_off()
-
-plt
 # %%
 plt.savefig("../img/chute-vegetti.png")
